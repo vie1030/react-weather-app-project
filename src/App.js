@@ -1,12 +1,13 @@
 import React from "react";
+import Weather from "./Weather";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="mb-3 mt-5">Weather React App</h1>
-        <button className="btn btn-primary">Hello</button>
+        <Weather />
+
         <footer>
           This is{" "}
           <a
