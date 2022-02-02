@@ -1,3 +1,7 @@
+.container {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
 .App {
   max-width: 600px;
   margin: 30px auto;

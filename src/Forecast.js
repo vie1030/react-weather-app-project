@@ -29,9 +29,9 @@ export default function Forecast(props) {
         </div>
         <div className="col-6">
           <ul>
+            <li>Feels like: {Math.round(props.data.feelsLike)}°C</li>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind} km/h</li>
-            <li>Feelslike: {Math.round(props.data.feelsLike)}°C</li>
           </ul>
         </div>
       </div>
