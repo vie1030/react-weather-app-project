@@ -1,45 +1,22 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 
 import "./DailyForecast.css";
 
 export default function DailyForecast(props) {
   return (
     <div className="DailyForecast mt-3">
-      <div class="row">
-        <div class="col-sm">
-          <div class="day">Today</div>
-          <div>🌞</div>
-          <div class="temp">
-            <strong>18°</strong>
-            /3°
+      <div className="row">
+        <div className="col-sm">
+          <div className="day mb-1">Today</div>
+          <div className="weatherIcon">
+            <WeatherIcon code="01d" size={25} />
           </div>
-        </div>
-        <div class="col-sm">
-          <div class="day">Sat</div>
-          <div>⛅</div>
-          <div class="temp">
-            <strong>15°</strong>/2°
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="day">Sun</div>
-          <div>⛅</div>
-          <div class="temp">
-            <strong>13°</strong>/3°
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="day">Mon</div>
-          <div>🌞</div>
-          <div class="temp">
-            <strong>10°</strong>/8°
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="day">Tue</div>
-          <div>⛅</div>
-          <div class="temp">
-            <strong>18°</strong>/6°
+          <div className="temp">
+            <span className="temp-max">
+              <strong>18°</strong>
+            </span>
+            <span className="temp-min">/3°</span>
           </div>
         </div>
       </div>
