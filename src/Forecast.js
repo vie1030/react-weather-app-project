@@ -36,7 +36,6 @@ export default function Forecast(props) {
           </ul>
         </div>
       </div>
-      <div className="dailyForecast"></div>
     </div>
   );
 }
